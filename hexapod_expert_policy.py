@@ -10,7 +10,7 @@ from typing import List, Tuple
 # ==========================================
 
 # Ścieżka do modelu URDF
-URDF_PATH = r"G:\Dane\Pulpit\Magisterka\FinalFormV7\FinalFormV7\urdf\FinalFormV7.urdf"
+URDF_PATH = r""
 
 # Zmienne morfologiczne robota sześcionożnego (wartości w mm)
 BODY_RADIUS = 161.63
