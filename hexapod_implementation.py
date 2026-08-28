@@ -305,7 +305,7 @@ async def neural_control_loop():
         # -------------------------------------------------------------
         # EWALUACJA POLITYKI I APLIKACJA KINEMATYKI
         # -------------------------------------------------------------
-        if abs(cmd_vx) < 0.05 and abs(cmd_vy) < 0.05:
+        if abs(cmd_vx) < 0.005 and abs(cmd_vy) < 0.005:
             smoothed_action = previous_action
         else:
             try:
