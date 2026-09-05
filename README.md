@@ -14,7 +14,7 @@ Projekt obejmuje opracowanie, optymalizację oraz wdrożenie sprzętowe (Sim2Rea
 Kluczowe cechy architektury:
 - **Hybrydowy oscylator CPG + PPO:** połączenie deterministycznego oscylatora fazowego z nieliniową korekcją trajektorii generowaną przez sieć neuronową (PPO).
 - **Częściowa obserwowalność (POMDP):** sterowanie bez enkoderów położenia w serwomechanizmach i bez sprzężenia siłowego — wektor obserwacji (49D) części sensorycznej opiera się wyłącznie na jednostce IMU (MPU-6500) oraz przyciskach w stopach robota.
-- **Odporność na lukę rzeczywistości:** celowe zaszumianie toru pomiarowego i stochastyczne maskowanie sygnałów kontaktowych zamiast kosztownej randomizacji dynamiki.
+- **Uodpornienie na lukę rzeczywistości:** celowe zaszumianie toru pomiarowego i stochastyczne maskowanie sygnałów kontaktowych zamiast kosztownej randomizacji dynamiki.
 - **Inicjalizacja przez klonowanie behawioralne (BC):** wstępna optymalizacja wag na analitycznych wzorcach kinematyki odwrotnej (IK).
 
 ---
