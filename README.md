@@ -24,8 +24,8 @@ Kluczowe cechy architektury:
 | Plik / Katalog | Opis |
 | :--- | :--- |
 | `model/` | Kompletny model kinematyczno-dynamiczny robota (pliki URDF oraz siatki kolizyjne/wizualne `.stl`). |
-| `hexapod.zip` | Wytrenowany, optymalny model polityki lokomocji (wagi sieci PPO w formacie Stable-Baselines3). |
-| `siec.onnx` | Zoptymalizowany graf obliczeniowy aktora wyeksportowany do formatu ONNX na platformę Raspberry Pi Zero 2 W. |
+| `hexapod.zip` | Wytrenowany model polityki lokomocji (wagi sieci PPO w formacie Stable-Baselines3). |
+| `siec.onnx` | Graf obliczeniowy aktora wyeksportowany do formatu ONNX na platformę Raspberry Pi Zero 2 W. |
 | `hexapod_model_evaluation.py` | **Główny skrypt demonstracyjny** — interaktywna symulacja chodu w PyBullet z kontrolą prędkości za pomocą suwaków GUI. |
 | `hexapod_learning.py` | Definicja środowiska Gym (`HexapodRLTrainingEnv`) oraz wielowątkowy proces uczenia PPO. |
 | `hexapod_expert_policy.py` | Analityczny generator trajektorii chodu (kinematyka odwrotna IK) do akwizycji danych eksperckich. |
