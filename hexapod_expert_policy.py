@@ -1,3 +1,4 @@
+import os
 import pybullet as p
 import pybullet_data
 import math
@@ -10,7 +11,8 @@ from typing import List, Tuple
 # ==========================================
 
 # Ścieżka do modelu URDF
-URDF_PATH = r""
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+URDF_PATH = os.path.join(BASE_DIR, "model", "urdf", "model.urdf")
 
 # Zmienne morfologiczne robota sześcionożnego (wartości w mm)
 BODY_RADIUS = 161.63
