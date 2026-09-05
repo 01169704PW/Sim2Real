@@ -27,7 +27,8 @@ from stable_baselines3.common.vec_env import SubprocVecEnv
 # =====================================================================
 # 1. PARAMETRY MODELU FIZYCZNEGO I ŚRODOWISKA
 # =====================================================================
-URDF_PATH = r""
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+URDF_PATH = os.path.join(BASE_DIR, "model", "urdf", "model.urdf")
 TARGET_HEIGHT = 0.228      
 FOOT_INDICES = [2, 5, 8, 11, 14, 17]
 KNEE_INDICES = [2, 5, 8, 11, 14, 17]
