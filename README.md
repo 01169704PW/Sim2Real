@@ -104,5 +104,5 @@ Gdy suwaki są ustawione w pozycji `0.0`, robot utrzymuje stabilną postawę spo
 
 Działanie wyuczonego modelu po transferze bezpośrednim (*zero-shot Sim2Real*) na fizycznej platformie z procesorem Raspberry Pi Zero 2 W:
 
-[[https://github.com/user-attachments/assets/a960166f-cd44-4e20-b669-4df8e238105a](https://github.com/user-attachments/assets/a960166f-cd44-4e20-b669-4df8e238105a)](https://github.com/user-attachments/assets/a960166f-cd44-4e20-b669-4df8e238105a)
+https://github.com/user-attachments/assets/a960166f-cd44-4e20-b669-4df8e238105a
 
